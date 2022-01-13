@@ -1,16 +1,16 @@
 # Lab Report 1 - Week 2
 
 ![Image](labreport1picture1.PNG)
-* I had already installed VS Code last quarter for CSE11. I did so by going to the VS Code web page and downloading it for Windows.
+* I had already installed VS Code last quarter for CSE11. I did so by going to [this link](https://code.visualstudio.com/) and clicking "download for Windows."
 ---
 ![Image](labreport1pic2.PNG)
-* In order to remotely connect, I had to first find my course specific account for CSE 15L by going to [this website](https://sdacs.ucsd.edu/~icc/index.php). I then typed in the command “ssh (my account address)” and it prompted me to accept or decline and then enter my password.
+* In order to remotely connect, I had to first find my course specific account for CSE 15L by going to [this website](https://sdacs.ucsd.edu/~icc/index.php). I then typed in the command “ssh (my account address)” and it prompted me to accept or decline and then enter my password. I accepted the message, and then entered the password for my school account.
 ---
 ![Image](labreport1pic3.PNG)
-* Here, I tested out commands on the remote server. I tested the ls command, which tries to open the specified directory. I also tried cp, which tries to open a file for reading, and cat, which puts the specified file into the terminal.
+* Once logged into the remote server, I tested out some commands. I tested the ls command, which tries to open the specified directory. I also tried cp, which tries to open a file for reading, and cat, which puts the specified file into the terminal.
 ---
 ![Image](labreport1pic4.PNG)
-* Here, I tested the scp command which copied a file into the remote server. Type “scp”, then the name of the file you are trying to move, and then the user address. It prompted me for a password and then once I typed the password in, the file was successfully copied over.
+* Here, I tested the scp command on my local machine which copies a file into the remote server. Type “scp”, then the name of the file you are trying to move, and then the user address. It prompted me for my school account password and then once I typed the password in, the file was successfully copied over.
 ---
 ![Image](labreport1pic5.PNG)
 * On a Windows PC, in order to set an SSH key so you do not have to enter a password anymore, I had to first type “ssh-keygen -t ed25519” and when prompted for a password, I left it empty, which generated a public and private key. Next, follow I followed the steps [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation). A summary of the steps I followed here are restarting VS code as administrator, and starting the ssh agent service and did “ssh-add (name of directory of the private key in my local files)” to add my private key into the service. After this, I used scp to copy the directory of the public key into the remote server.
