@@ -1,3 +1,6 @@
+Hi this is editing in VS code!!!!!!
+*asdfasdfasd*
+
 *Italic* **Bold**
 # Heading 1
 ## Heading 2
