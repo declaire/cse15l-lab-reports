@@ -24,7 +24,7 @@
 ## Setting an SSH Key
 
 ![Image](labreport1pic5.PNG)
-* On a Windows PC, in order to set an SSH key so you do not have to enter a password anymore, I had to first type “ssh-keygen -t ed25519” and when prompted for a password, I left it empty, which generated a public and private key. Next, follow I followed the steps **[here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)**. A summary of the steps I followed here are restarting VS code as administrator, and starting the ssh agent service and did “ssh-add (name of directory of the private key in my local files)” to add my private key into the service. After this, I used scp to copy the directory of the public key into the remote server.<br>
+* On a Windows PC, in order to set an SSH key so you do not have to enter a password anymore, I had to first type “ssh-keygen -t ed25519” and when prompted for a password, I left it empty, which generated a public and private key. Next, I followed the steps **[here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)**. A summary of the steps I followed here are restarting VS code as administrator, and starting the ssh agent service and did “ssh-add (name of directory of the private key in my local files)” to add my private key into the service. After this, I used scp to copy the directory of the public key into the remote server.<br>
 
 ## Optimizing Remote Running
 
