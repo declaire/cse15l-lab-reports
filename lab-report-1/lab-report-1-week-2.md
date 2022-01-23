@@ -9,7 +9,7 @@
 ## Remotely Connecting
 
 ![Image](labreport1pic2.PNG)
-* In order to remotely connect, I had to first find my course specific account for CSE 15L by going to **[this website](https://sdacs.ucsd.edu/~icc/index.php)**. I then typed in the command “ssh (my account address)” and it prompted me to accept or decline and then enter my password. I accepted the message, and then entered the password for my school account.
+* In order to remotely connect, I had to first find my course specific account for CSE 15L by going to **[this website](https://sdacs.ucsd.edu/~icc/index.php)**. I then typed in the command `ssh (my account address)` and it prompted me to accept or decline and then enter my password. I accepted the message, and then entered the password for my school account.
 
 ## Trying Some Commands
 
