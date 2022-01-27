@@ -1,10 +1,10 @@
-# Lab Report 1 - Week 2
+# Lab Report 2 - Week 4
 
 ## Code Change #1
 
 ![Image](lab2pic1.PNG)
 * These are the initial changes we made to the code in MarkdownParse.java
-* Here is the **[link](https://github.com/declaire/markdown-parse/blob/main/mytestfile.md)** to a failure-inducing input that prompted me to make these changes
+* **[Link](https://github.com/declaire/markdown-parse/blob/main/mytestfile.md)** to a failure-inducing input that prompted me to make these changes
 
 * Here is the symptom of the failure-inducing input.
 * The symptom is that
@@ -13,7 +13,7 @@
 
 ![Image](lab2pic2.PNG)
 * These are the changes we made to the code in MarkdownParse.java.
-* Here is the **[link](https://github.com/declaire/markdown-parse/blob/main/mytestfile3.md)** to a failure-inducing input that prompted me to make these changes
+* **[Link](https://github.com/declaire/markdown-parse/blob/main/mytestfile3.md)** to a failure-inducing input that prompted me to make these changes
 
 ![Image](lab2pic3.PNG)
 * Here is the symptom of the failure-inducing input.
