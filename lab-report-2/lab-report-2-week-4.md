@@ -1,3 +1,8 @@
+
+### **[Homepage](https://declaire.github.io/cse15l-lab-reports)**
+
+---
+
 # Lab Report 2 - Week 4
 
 ## Code Change #1
