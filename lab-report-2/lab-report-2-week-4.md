@@ -7,8 +7,9 @@
 * These are the initial changes we made to the code in MarkdownParse.java
 * **[Link](https://github.com/declaire/markdown-parse/blob/main/mytestfile.md)** to a failure-inducing input that prompted me to make these changes
 
+![Image](lab2pic6.PNG)
 * Here is the symptom of the failure-inducing input.
-* The symptom is that
+* The symptom is that there is an out of bounds exception thrown in the output, and this is because in the failure-inducing input, there is a link without a close parenthesis at the end. This caused a bug when the program takes a substring from an open parenthesis to the close parenthesis. Because there is no close parenthesis, the index is -1, and the program cannot take a substring of a negative index, causing the exception to be throw.
 
 ## Code Change #2
 
@@ -18,7 +19,7 @@
 
 ![Image](lab2pic3.PNG)
 * Here is the symptom of the failure-inducing input.
-* The symptom is that the image link is displayed in the output when we run the program even though we don't want it to be. This is because in the failure-inducing input, the image uses a similar formatting to the link, which created a bug in which the program could not tell the difference between a link and an image.
+* The symptom is that the image file is displayed in the output when we run the program even though we don't want it to be. This is because in the failure-inducing input, the image file uses a similar formatting to the link, which created a bug in which the program could not tell the difference between a link and an image.
 
 
 ## Code Change #3
