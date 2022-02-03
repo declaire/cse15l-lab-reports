@@ -1,8 +1,4 @@
 
-### **[Homepage](https://declaire.github.io/cse15l-lab-reports)**
-
----
-
 # Lab Report 1 - Week 2
 
 ## Installing VScode
