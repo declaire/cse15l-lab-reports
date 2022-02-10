@@ -4,7 +4,7 @@
 ## Copy whole directories with scp -r
 
 ![Image](lab3pic1.PNG)
-* Copying my whole markdown-parse directory to your ieng6 account using the command `scp -r *.java *.md lib/ C:\Users\clair\OneDrive\Documents\GitHub\markdown-parse\Makefile  cs15lwi22adh@ieng6.ucsd.edu:markdown-parse`
+* Copying my whole markdown-parse directory to my ieng6 account using the command `scp -r *.java *.md lib/ C:\Users\clair\OneDrive\Documents\GitHub\markdown-parse\Makefile  cs15lwi22adh@ieng6.ucsd.edu:markdown-parse`
 * This command adds the whole directory and also the Makefile
 
 ![Image](lab3pic2.PNG)
